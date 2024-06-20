@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE33E8032AC3E3B40093E3E7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE33E8022AC3E3B40093E3E7 /* main.cpp */; };
 		EE33E80E2AC3E9D40093E3E7 /* libkmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE33E80C2AC3E9880093E3E7 /* libkmod.a */; };
 		EE33E8252AC3EBB10093E3E7 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE33E8242AC3EBB10093E3E7 /* CoreFoundation.framework */; };
 		EE33E82D2AC3EC190093E3E7 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE33E82C2AC3EC190093E3E7 /* IOKit.framework */; };
@@ -17,10 +16,14 @@
 		EE3E621C2AC6820100A45060 /* SMCLightSensor.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EE3E621A2AC6820100A45060 /* SMCLightSensor.hpp */; };
 		EE3E622B2AC685BB00A45060 /* AmbientLightValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE3E62292AC685BB00A45060 /* AmbientLightValue.cpp */; };
 		EE3E622C2AC685BB00A45060 /* AmbientLightValue.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EE3E622A2AC685BB00A45060 /* AmbientLightValue.hpp */; };
+		EE47C5E62C23D0820026C980 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE47C5E32C23D0820026C980 /* main.cpp */; };
 		EE5294DC2AB2D5340010D50D /* CrosECBus.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EE5294DB2AB2D5340010D50D /* CrosECBus.hpp */; };
 		EE5294DE2AB2D5340010D50D /* CrosECBus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE5294DD2AB2D5340010D50D /* CrosECBus.cpp */; };
 		EE5296D12ABA718F00DD3CFE /* CrosECDeviceNub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE5296CF2ABA718F00DD3CFE /* CrosECDeviceNub.cpp */; };
 		EE5296D22ABA718F00DD3CFE /* CrosECDeviceNub.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EE5296D02ABA718F00DD3CFE /* CrosECDeviceNub.hpp */; };
+		EE6F41C02C23D2E8002D60B3 /* CBTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE6F41BF2C23D2E2002D60B3 /* CBTables.cpp */; };
+		EE6F41C22C23D2EB002D60B3 /* CBTables.hpp in Sources */ = {isa = PBXBuildFile; fileRef = EE6F41C12C23D2EB002D60B3 /* CBTables.hpp */; };
+		EE6F41C32C23D659002D60B3 /* libkmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE33E80C2AC3E9880093E3E7 /* libkmod.a */; };
 		EE93B21A2ACD20650082868A /* VirtualSMCSDK in Resources */ = {isa = PBXBuildFile; fileRef = EE93B2192ACD20650082868A /* VirtualSMCSDK */; };
 		EEA37FD32ABAA3D700B31609 /* CrosECKeyboardBacklight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEA37FD12ABAA3D700B31609 /* CrosECKeyboardBacklight.cpp */; };
 		EEA37FD42ABAA3D700B31609 /* CrosECKeyboardBacklight.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EEA37FD22ABAA3D700B31609 /* CrosECKeyboardBacklight.hpp */; };
@@ -42,7 +45,6 @@
 
 /* Begin PBXFileReference section */
 		EE33E8002AC3E3B40093E3E7 /* CrosECVersion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CrosECVersion; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE33E8022AC3E3B40093E3E7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EE33E80C2AC3E9880093E3E7 /* libkmod.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkmod.a; path = usr/lib/libkmod.a; sourceTree = SDKROOT; };
 		EE33E8122AC3E9E40093E3E7 /* libkmodc++.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libkmodc++.a"; path = "usr/lib/libkmodc++.a"; sourceTree = SDKROOT; };
 		EE33E8242AC3EBB10093E3E7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -53,12 +55,17 @@
 		EE3E621A2AC6820100A45060 /* SMCLightSensor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SMCLightSensor.hpp; sourceTree = "<group>"; };
 		EE3E62292AC685BB00A45060 /* AmbientLightValue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AmbientLightValue.cpp; sourceTree = "<group>"; };
 		EE3E622A2AC685BB00A45060 /* AmbientLightValue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AmbientLightValue.hpp; sourceTree = "<group>"; };
+		EE47C5E32C23D0820026C980 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EE5294D82AB2D5340010D50D /* CrosEC.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrosEC.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5294DB2AB2D5340010D50D /* CrosECBus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CrosECBus.hpp; sourceTree = "<group>"; };
 		EE5294DD2AB2D5340010D50D /* CrosECBus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CrosECBus.cpp; sourceTree = "<group>"; };
 		EE5294DF2AB2D5340010D50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE5296CF2ABA718F00DD3CFE /* CrosECDeviceNub.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CrosECDeviceNub.cpp; sourceTree = "<group>"; };
 		EE5296D02ABA718F00DD3CFE /* CrosECDeviceNub.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CrosECDeviceNub.hpp; sourceTree = "<group>"; };
+		EE6F41B42C23D186002D60B3 /* CBMem.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBMem.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6F41BA2C23D186002D60B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6F41BF2C23D2E2002D60B3 /* CBTables.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CBTables.cpp; sourceTree = "<group>"; };
+		EE6F41C12C23D2EB002D60B3 /* CBTables.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CBTables.hpp; sourceTree = "<group>"; };
 		EE93B2192ACD20650082868A /* VirtualSMCSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; name = VirtualSMCSDK; path = Dependencies/VirtualSMC/VirtualSMCSDK; sourceTree = "<group>"; };
 		EEA37FC82ABA9FC700B31609 /* CrosECShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrosECShared.h; sourceTree = "<group>"; };
 		EEA37FD12ABAA3D700B31609 /* CrosECKeyboardBacklight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CrosECKeyboardBacklight.cpp; sourceTree = "<group>"; };
@@ -85,17 +92,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE6F41B12C23D186002D60B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6F41C32C23D659002D60B3 /* libkmod.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EE33E8012AC3E3B40093E3E7 /* CrosECVersion */ = {
-			isa = PBXGroup;
-			children = (
-				EE33E8022AC3E3B40093E3E7 /* main.cpp */,
-			);
-			path = CrosECVersion;
-			sourceTree = "<group>";
-		};
 		EE33E80B2AC3E9880093E3E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,15 +125,32 @@
 			path = SMCLightSensor;
 			sourceTree = "<group>";
 		};
+		EE47C5E42C23D0820026C980 /* CrosECVersion */ = {
+			isa = PBXGroup;
+			children = (
+				EE47C5E32C23D0820026C980 /* main.cpp */,
+			);
+			path = CrosECVersion;
+			sourceTree = "<group>";
+		};
+		EE47C5E52C23D0820026C980 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EE47C5E42C23D0820026C980 /* CrosECVersion */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		EE5294CE2AB2D5340010D50D = {
 			isa = PBXGroup;
 			children = (
 				EE93B2192ACD20650082868A /* VirtualSMCSDK */,
 				EEA37FC72ABA9FB500B31609 /* Include */,
 				EE5294DA2AB2D5340010D50D /* CrosEC */,
-				EE33E8012AC3E3B40093E3E7 /* CrosECVersion */,
+				EE6F41B52C23D186002D60B3 /* CBMem */,
 				EE5294D92AB2D5340010D50D /* Products */,
 				EE33E80B2AC3E9880093E3E7 /* Frameworks */,
+				EE47C5E52C23D0820026C980 /* Utils */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +159,7 @@
 			children = (
 				EE5294D82AB2D5340010D50D /* CrosEC.kext */,
 				EE33E8002AC3E3B40093E3E7 /* CrosECVersion */,
+				EE6F41B42C23D186002D60B3 /* CBMem.kext */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,6 +173,16 @@
 				EE3E62182AC681DA00A45060 /* SMCLightSensor */,
 			);
 			path = CrosEC;
+			sourceTree = "<group>";
+		};
+		EE6F41B52C23D186002D60B3 /* CBMem */ = {
+			isa = PBXGroup;
+			children = (
+				EE6F41C12C23D2EB002D60B3 /* CBTables.hpp */,
+				EE6F41BF2C23D2E2002D60B3 /* CBTables.cpp */,
+				EE6F41BA2C23D186002D60B3 /* Info.plist */,
+			);
+			path = CBMem;
 			sourceTree = "<group>";
 		};
 		EEA37FC72ABA9FB500B31609 /* Include */ = {
@@ -199,6 +234,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE6F41AF2C23D186002D60B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -238,6 +280,24 @@
 			productReference = EE5294D82AB2D5340010D50D /* CrosEC.kext */;
 			productType = "com.apple.product-type.kernel-extension";
 		};
+		EE6F41B32C23D186002D60B3 /* CBMem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6F41BD2C23D186002D60B3 /* Build configuration list for PBXNativeTarget "CBMem" */;
+			buildPhases = (
+				EE6F41AF2C23D186002D60B3 /* Headers */,
+				EE6F41B02C23D186002D60B3 /* Sources */,
+				EE6F41B12C23D186002D60B3 /* Frameworks */,
+				EE6F41B22C23D186002D60B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CBMem;
+			productName = CBMem;
+			productReference = EE6F41B42C23D186002D60B3 /* CBMem.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -251,6 +311,9 @@
 					};
 					EE5294D72AB2D5340010D50D = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					EE6F41B32C23D186002D60B3 = {
+						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
@@ -268,6 +331,7 @@
 			projectRoot = "";
 			targets = (
 				EE5294D72AB2D5340010D50D /* CrosEC */,
+				EE6F41B32C23D186002D60B3 /* CBMem */,
 				EE33E7FF2AC3E3B40093E3E7 /* CrosECVersion */,
 			);
 		};
@@ -279,6 +343,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE93B21A2ACD20650082868A /* VirtualSMCSDK in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6F41B22C23D186002D60B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE33E8032AC3E3B40093E3E7 /* main.cpp in Sources */,
+				EE47C5E62C23D0820026C980 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +396,15 @@
 				EEA37FD32ABAA3D700B31609 /* CrosECKeyboardBacklight.cpp in Sources */,
 				EE38E9082AC0B17500EF14F3 /* CrosECUserClient.cpp in Sources */,
 				EE5294DE2AB2D5340010D50D /* CrosECBus.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6F41B02C23D186002D60B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6F41C22C23D2EB002D60B3 /* CBTables.hpp in Sources */,
+				EE6F41C02C23D2E8002D60B3 /* CBTables.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +592,59 @@
 			};
 			name = Release;
 		};
+		EE6F41BB2C23D186002D60B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CBMem/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MARKETING_VERSION = 1.0;
+				MODULE_NAME = com.1Revenger1.CBMem;
+				MODULE_VERSION = 1.0.0d1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.1Revenger1.CBMem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		EE6F41BC2C23D186002D60B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CBMem/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MARKETING_VERSION = 1.0;
+				MODULE_NAME = com.1Revenger1.CBMem;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.1Revenger1.CBMem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -538,6 +671,15 @@
 			buildConfigurations = (
 				EE5294E32AB2D5340010D50D /* Debug */,
 				EE5294E42AB2D5340010D50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6F41BD2C23D186002D60B3 /* Build configuration list for PBXNativeTarget "CBMem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6F41BB2C23D186002D60B3 /* Debug */,
+				EE6F41BC2C23D186002D60B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -51,7 +51,7 @@ int main(int argc, const char * argv[]) {
     } else {
         ECVersion *buf = (ECVersion *) response.receiveBuffer;
         std::cout << "EC RO Version: " << buf->versionString << std::endl;
-        std::cout << "EC RW Version: " << buf->versionString << std::endl;
+        std::cout << "EC RW Version: " << buf->versionStringRW << std::endl;
     }
     
     kernResult = IOServiceClose(connect);

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>Coreboot Tables</key>
+		<dict>
+			<key>IONameMatch</key>
+			<array>
+				<string>BOOT0000</string>
+				<string>GOOGCB00</string>
+			</array>
+			<key>IOProviderClass</key>
+			<string>IOACPIPlatformDevice</string>
+			<key>IOClass</key>
+			<string>CBTables</string>
+			<key>CFBundleIdentifier</key>
+			<string>com.1Revenger1.CBMem</string>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict/>
+</dict>
+</plist>
